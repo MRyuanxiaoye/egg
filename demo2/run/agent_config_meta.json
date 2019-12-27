@@ -1,0 +1,277 @@
+{
+  "keys": "/Users/enya/Desktop/study/demo-egg/demo2/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/enya/Desktop/study/demo-egg/demo2/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/enya/Desktop/study/demo-egg/demo2/config/config.default.js"
+    },
+    "root": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/enya/Desktop/study/demo-egg/demo2/config/config.default.js",
+    "serverUrl": "/Users/enya/Desktop/study/demo-egg/demo2/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "name": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "version": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "description": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "main": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "dev": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "license": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "strict": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "depth": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "env": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "level": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "logging": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "port": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/enya/Desktop/study/demo-egg/demo2/node_modules/egg/config/config.default.js"
+}

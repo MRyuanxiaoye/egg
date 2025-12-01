@@ -155,3 +155,36 @@ front, back = predictor.predict(method='ensemble')
 ```bash
 python trend_prediction_example.py
 ```
+
+## 七、机器学习训练
+
+### 环境准备
+```bash
+# 1. 检查环境
+python check_environment.py
+
+# 2. 安装依赖
+pip install -r requirements_ml.txt
+```
+
+### 快速开始
+```bash
+# 方式1：使用示例数据（最简单）
+python quick_start_ml.py
+
+# 方式2：使用你的数据
+python ml_training_pipeline.py --data lottery_history.csv
+
+# 方式3：使用训练好的模型预测
+python ml_prediction.py --data lottery_history.csv
+```
+
+### 详细指南
+- `ML_QUICK_START.md`: 机器学习快速开始
+- `ML_SETUP_GUIDE.md`: 详细安装和配置指南
+- `ml_training_pipeline.py`: 完整训练流程
+
+### 硬件要求
+- **CPU训练**: 4核心+, 8GB内存（较慢）
+- **GPU训练**: NVIDIA显卡, 4GB显存（推荐，快10-20倍）
+- **云平台**: Google Colab / Kaggle（免费GPU）

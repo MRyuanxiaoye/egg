@@ -10,6 +10,13 @@ from lottery_analyzer import LotteryAnalyzer
 import random
 from collections import Counter
 
+# 尝试导入走势预测器（可选）
+try:
+    from trend_based_predictor import TrendBasedPredictor
+    HAS_TREND_PREDICTOR = True
+except ImportError:
+    HAS_TREND_PREDICTOR = False
+
 
 class PredictionStrategy:
     """预测策略基类"""
@@ -230,6 +237,26 @@ class EnsembleStrategy(PredictionStrategy):
         return front_numbers, back_numbers
 
 
+class TrendMatchingStrategy(PredictionStrategy):
+    """走势匹配策略：基于走势图匹配"""
+    
+    def __init__(self, analyzer: LotteryAnalyzer):
+        super().__init__(analyzer)
+        if HAS_TREND_PREDICTOR and hasattr(analyzer, 'data'):
+            self.trend_predictor = TrendBasedPredictor(analyzer.data, use_ml=False)
+        else:
+            self.trend_predictor = None
+    
+    def predict(self) -> Tuple[List[int], List[int]]:
+        if self.trend_predictor:
+            return self.trend_predictor.predict(method='matching')
+        else:
+            # 回退到简单策略
+            from prediction_models import FrequencyBalanceStrategy
+            fallback = FrequencyBalanceStrategy(self.analyzer)
+            return fallback.predict()
+
+
 class LotteryPredictor:
     """大乐透预测器主类"""
     
@@ -242,6 +269,13 @@ class LotteryPredictor:
             'combination_optimization': CombinationOptimizationStrategy(analyzer),
             'ensemble': EnsembleStrategy(analyzer)
         }
+        
+        # 添加走势匹配策略（如果可用）
+        if HAS_TREND_PREDICTOR and hasattr(analyzer, 'data'):
+            try:
+                self.strategies['trend_matching'] = TrendMatchingStrategy(analyzer)
+            except Exception as e:
+                print(f"走势匹配策略初始化失败: {e}")
     
     def predict(self, strategy: str = 'ensemble', **kwargs) -> Tuple[List[int], List[int]]:
         """

@@ -57,6 +57,15 @@
 - 使用多种模型预测
 - 集成多个模型的预测结果
 
+### 策略6：走势图匹配法（推荐）⭐
+- **横向分析**：分析每个位置的号码走势（位置1-5，后区1-2）
+- **纵向分析**：分析整个号码组合的走势（和值、跨度、奇偶比等）
+- **模式匹配**：找到与当前走势最相似的历史模式
+- **机器学习**：使用LSTM/Transformer学习走势规律
+- **综合预测**：基于走势匹配生成预测号码
+
+详见 `TREND_ANALYSIS_GUIDE.md` 和 `trend_based_predictor.py`
+
 ## 三、分析流程
 
 1. **数据收集与清洗**
@@ -94,4 +103,55 @@
 
 ## 五、技术实现
 
-详见 `lottery_analyzer.py` 和 `prediction_models.py` 中的具体实现。
+### 基础分析工具
+- `lottery_analyzer.py`: 基础统计分析工具
+- `prediction_models.py`: 传统预测策略
+- `visualization.py`: 数据可视化工具
+
+### 走势图分析（核心功能）⭐
+- `trend_analyzer.py`: 走势图分析工具（横向+纵向）
+- `ml_models.py`: 深度学习模型（LSTM、Transformer、CNN）
+- `trend_based_predictor.py`: 基于走势的预测器
+- `trend_prediction_example.py`: 完整使用示例
+
+### 文档
+- `TREND_ANALYSIS_GUIDE.md`: 走势分析详细指南
+- `ANALYSIS_METHODOLOGY.md`: 分析方法论详解
+
+## 六、快速开始
+
+### 基础分析
+```python
+from lottery_analyzer import LotteryAnalyzer
+from prediction_models import LotteryPredictor
+
+analyzer = LotteryAnalyzer('lottery_history.csv')
+predictor = LotteryPredictor(analyzer)
+front, back = predictor.predict('ensemble')
+```
+
+### 走势图分析（推荐）
+```python
+from trend_based_predictor import TrendBasedPredictor
+import pandas as pd
+
+data = pd.read_csv('lottery_history.csv')
+predictor = TrendBasedPredictor(data, use_ml=True, model_type='lstm')
+
+# 分析走势
+trends = predictor.analyze_trends()
+
+# 生成走势图
+predictor.generate_trend_report()
+
+# 训练模型
+predictor.train_ml_model(epochs=50)
+
+# 预测
+front, back = predictor.predict(method='ensemble')
+```
+
+运行完整示例：
+```bash
+python trend_prediction_example.py
+```
